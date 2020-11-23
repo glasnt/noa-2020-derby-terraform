@@ -1,6 +1,20 @@
 # My cat photo service
 
-To deploy this service onto Google Cloud, you will need to create a project, setup billing, and install the gcloud CLI. 
+
+To deploy this service onto Google Cloud, you will need to create a project and setup billing
+
+## Automated way
+
+Install Terraform
+
+```
+terraform init
+terraform apply
+```
+
+## Manual way 
+
+Install the gcloud CLI. 
 
 Create a storage bucket: 
 
